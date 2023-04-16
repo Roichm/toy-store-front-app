@@ -1,0 +1,46 @@
+// @import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css);
+$mainColor: rgb(255, 255, 255);
+$headerColor: rgb(189, 224, 254);
+$footerColor: rgb(162, 210, 255);
+
+nav {
+  background-color: $headerColor;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  
+}
+main {
+  background-color: $mainColor;
+}
+footer {
+  height: 5vh;
+  background-color: $footerColor;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  background-color: $headerColor;
+}
+
+.list-group-flush {
+  > .list-group-item {
+    border-bottom-width: 0;
+  }
+}
+#quantityForm{
+    width: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
